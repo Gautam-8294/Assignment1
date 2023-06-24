@@ -1,0 +1,17 @@
+/* .gridbox1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column: auto;
+} */
+.gridbox {
+    display:grid;
+    grid-column-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    align-content: center;
+    justify-content: center;
+    justify-items: stretch;
+    margin-top: 0.6em;
+    padding: 15px;
+}

@@ -1,0 +1,70 @@
+.client_card_main_container h1{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+.client_card_container .card_nav_menu{
+    display:grid;
+    /* grid-auto-flow: column; */
+    grid-column-gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-content: center;
+    justify-content: center;
+    justify-items: stretch;
+    /* margin-top: 0.6em; */
+    padding: 15px;
+}
+.card_column h3{
+    display: block;
+    font-family: Avertastd,sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1em;
+    color: #285fca;
+    padding-left: 16px;
+    margin-bottom: 0;
+
+}
+.card_column {
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 26px;
+    padding: 0.6em;
+}
+.single_card:last-child{
+    border: none;
+}
+.single_card div{
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    display: flex;
+
+    /* align-items: flex-end; */
+    padding: 10px;
+
+}
+.single_card div div{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.single_card_anchor{
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bolder;
+    padding-left: 16px;
+    color: black;
+
+}
+.single_card a:hover{
+    color: #285fca;
+}
+.card_column p{
+    margin: 0.75em auto 2em;
+    padding-top: 0;
+    padding-left: 16px;
+    line-height: .6em;
+    font-size: 20px;
+}
+.single_card p{
+    font-size: 16px;
+}
